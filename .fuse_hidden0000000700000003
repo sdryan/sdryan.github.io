@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Publications — Ryan Research Group</title>
+<meta name="description" content="Complete publication list for Shawn D. Ryan, PhD. 47 papers across collective motion, mathematical biology, food-safety modeling, and materials science." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html"><span class="mark">R</span><span>Ryan Research Group<small>Applied Math &amp; Math Biology</small></span></a>
+    <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html" aria-current="page">Publications</a>
+      <a href="group.html">Group</a>
+      <a href="teaching.html">Teaching</a>
+      <a class="nav__cta" href="contact.html"><span class="btn btn--accent" style="padding:.5rem 1rem;font-size:.9rem;">Contact</span></a>
+    </nav>
+  </div>
+</header>
+
+<section class="phead">
+  <div class="abs-grid grid-bg"></div>
+  <div class="wrap phead__inner">
+    <span class="eyebrow">Publications</span>
+    <h1>47 papers, and counting.</h1>
+    <p class="lead" style="margin-top:1rem;">Peer-reviewed articles, book reviews, and theses across collective motion, mathematical biology, food-safety modeling, and materials science. Filter by area below.</p>
+    <div style="margin-top:1.6rem;"><a class="btn btn--accent" href="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2025/10/SRyan_CV_2025.pdf" target="_blank" rel="noopener">Download full CV (PDF) <span class="arw">→</span></a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="pubfilter reveal">
+      <button class="is-on" data-filter="all">All</button>
+      <button data-filter="active">Collective motion / active matter</button>
+      <button data-filter="bio">Mathematical biology</button>
+      <button data-filter="food">Food safety</button>
+      <button data-filter="clinical">Clinical</button>
+      <button data-filter="materials">Materials science</button>
+      <button data-filter="education">Education</button>
+    </div>
+
+    <ul class="publist reveal">
+
+      <li class="pub" data-tags="active food"><span class="pub__no">47</span><div><div class="pub__title">Contamination Dynamics of Active Rods in Long Micro-channels</div><div class="pub__meta">J. Palos, C. Brown, M. Potomkin, <b>S. D. Ryan</b> · <span class="pub__venue">In Preparation</span> (2025) <span class="pub__badge">In prep</span></div></div></li>
+
+      <li class="pub" data-tags="active bio"><span class="pub__no">46</span><div><div class="pub__title">Macroscopic model for foraging ant dynamics</div><div class="pub__meta"><b>S. D. Ryan</b> · <span class="pub__venue">In Preparation</span> (2025) <span class="pub__badge">In prep</span></div></div></li>
+
+      <li class="pub" data-tags="bio food"><span class="pub__no">45</span><div><div class="pub__title">Modeling Multi-Phase Growth in Cyanobacterial Harmful Algal Blooms</div><div class="pub__meta">A. Brown, D. Munther, <b>S. D. Ryan</b> · <span class="pub__venue">Submitted</span> (2026) <span class="pub__badge">Submitted</span></div></div></li>
+
+      <li class="pub" data-tags="active bio"><span class="pub__no">44</span><div><div class="pub__title">Macroscopic Dominance from Microscopic Extremes: Symmetry Breaking in Foraging Populations</div><div class="pub__meta">S. Guha, <b>S. D. Ryan</b>, B. Karamched · <span class="pub__venue">In Preparation</span> (2026)</div><div class="pub__links"><a href="https://arxiv.org/pdf/2603.10911" target="_blank" rel="noopener">arXiv</a></div></div></li>
+
+      <li class="pub" data-tags="bio"><span class="pub__no">43</span><div><div class="pub__title">Toe Twitch or Not Toe Twitch: A Frog Pursuit Model</div><div class="pub__meta">C. Gibson, <b>S. D. Ryan</b> · <span class="pub__venue">Journal of Herpetology</span>, accepted (2026)</div></div></li>
+
+      <li class="pub" data-tags="food"><span class="pub__no">42</span><div><div class="pub__title">Peracetic Acid Efficacy and Decay Kinetics in Poultry Processing Under Chiller Conditions</div><div class="pub__meta">V. Ciluveru, J. Simon, J. M. Farber, <b>S. D. Ryan</b>, C. Kothapalli, D. S. Munther · <span class="pub__venue">International Journal of Food Microbiology</span> 448, 111572 (2026)</div><div class="pub__links"><a href="https://doi.org/10.1016/j.ijfoodmicro.2025.111572" target="_blank" rel="noopener">DOI</a><a href="https://www.biorxiv.org/content/10.1101/2025.09.04.674287.full.pdf" target="_blank" rel="noopener">Preprint</a></div></div></li>
+
+      <li class="pub" data-tags="active"><span class="pub__no">41</span><div><div class="pub__title">Boundary accumulations of active rods in 3D microchannels with elliptical cross-section</div><div class="pub__meta">C. Brown, <b>S. D. Ryan</b>, M. Potomkin · <span class="pub__venue">Physical Review E</span> 112, 045407 (2025)</div><div class="pub__links"><a href="https://doi.org/10.1103/19cn-bn7m" target="_blank" rel="noopener">DOI</a><a href="https://arxiv.org/pdf/2409.04950" target="_blank" rel="noopener">arXiv</a></div></div></li>
+
+      <li class="pub" data-tags="food"><span class="pub__no">40</span><div><div class="pub__title">Spatial cross-contamination profiles: Effect of water reuse on dynamics of Campylobacter and E. coli during poultry chilling</div><div class="pub__meta">D. Munther, <b>S. D. Ryan</b>, C. Kothapalli, N. Zekaj · <span class="pub__venue">Food and Bioproducts Processing</span> 153, 472–485 (2025)</div><div class="pub__links"><a href="https://doi.org/10.1016/j.fbp.2025.07.016" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="food"><span class="pub__no">39</span><div><div class="pub__title">Spatial characterizations of bacterial dynamics for food safety: Modeling for shared water processing environments</div><div class="pub__meta">D. Munther, <b>S. D. Ryan</b>, C. Kothapalli, N. Zekaj · <span class="pub__venue">Applied Mathematical Modeling</span> 139, 115818 (2025)</div><div class="pub__links"><a href="https://www.sciencedirect.com/science/article/pii/S0307904X24005717" target="_blank" rel="noopener">DOI</a><a href="https://www.biorxiv.org/content/10.1101/2024.11.04.621859v1.full.pdf" target="_blank" rel="noopener">Preprint</a></div></div></li>
+
+      <li class="pub" data-tags="active bio"><span class="pub__no">38</span><div><div class="pub__title">Walk This Way: Modeling Foraging Ant Dynamics in Multiple Food Source Environments</div><div class="pub__meta">S. Hartman, <b>S. D. Ryan</b>, B. R. Karamched · <span class="pub__venue">Journal of Mathematical Biology</span> 89(41) (2024)</div><div class="pub__links"><a href="https://link.springer.com/article/10.1007/s00285-024-02136-2" target="_blank" rel="noopener">DOI</a><a href="https://doi.org/10.1101/2024.01.20.576461" target="_blank" rel="noopener">Preprint</a></div></div></li>
+
+      <li class="pub" data-tags="clinical"><span class="pub__no">37</span><div><div class="pub__title">External Validation of a Clinical Mathematical Model Estimating Postoperative Urine Output Following Cardiac Surgery in Children</div><div class="pub__meta">O. Baloglu, B. S. Marino, S. Q. Latifi, A. Morca, D. S. Munther, <b>S. D. Ryan</b> · <span class="pub__venue">J. Pediatric Nephrology</span> 1–6 (2024)</div><div class="pub__links"><a href="https://link.springer.com/article/10.1007/s00467-024-06456-9" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="bio"><span class="pub__no">36</span><div><div class="pub__title">Agent-based modeling of nuclear chromosome ensemble identifies determinants of homolog pairing during meiosis</div><div class="pub__meta">A. Chriss, G. V. Börner, <b>S. D. Ryan</b> · <span class="pub__venue">PLoS Computational Biology</span> 20(5) e1011416 (2024)</div><div class="pub__links"><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011416" target="_blank" rel="noopener">DOI</a><a href="https://www.biorxiv.org/content/10.1101/2023.08.09.552574v2.full.pdf" target="_blank" rel="noopener">Preprint</a></div></div></li>
+
+      <li class="pub" data-tags="bio education"><span class="pub__no">35</span><div><div class="pub__title">Book Review: Mathematical Modeling in Biology — A Research Methods Approach</div><div class="pub__meta"><b>S. D. Ryan</b> · <span class="pub__venue">SIAM Review (SIREV)</span> 66(4), 795–805 (2024)</div><div class="pub__links"><a href="https://epubs.siam.org/doi/abs/10.1137/24N97602X" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="clinical"><span class="pub__no">34</span><div><div class="pub__title">Noninvasive cardiac output monitoring in congenital heart disease</div><div class="pub__meta">A. Tandon, S. Bhattacharya, O. T. Inan, J. Lasa, S. Latifi, N. Lu, B. Marino, A. Morca, D. Munther, <b>S. D. Ryan</b>, O. Baloglu · <span class="pub__venue">Current Treatment Options in Pediatrics</span> (2023)</div><div class="pub__links"><a href="https://link.springer.com/article/10.1007/s40746-023-00274-1" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="bio clinical"><span class="pub__no">33</span><div><div class="pub__title">Fluid-Structure Interaction Modelling of Neighboring Tubes with Primary Cilium Analysis</div><div class="pub__meta">N. Zekaj, <b>S. D. Ryan</b>, A. Resnick · <span class="pub__venue">Mathematical Biosciences and Engineering</span> 20(2), 3677–3699 (2023)</div><div class="pub__links"><a href="https://www.aimspress.com/article/doi/10.3934/mbe.2023172" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="bio"><span class="pub__no">32</span><div><div class="pub__title">The Space Between Us: Modeling Spatial Heterogeneity in Synthetic Microbial Consortia Dynamics</div><div class="pub__meta">R. Godin, B. Karamched, <b>S. D. Ryan</b> · <span class="pub__venue">Biophysical Reports</span> 2(4), 100085 (2022)</div><div class="pub__links"><a href="https://doi.org/10.1016/j.bpr.2022.100085" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="clinical"><span class="pub__no">31</span><div><div class="pub__title">A Clinical Mathematical Model Estimating Postoperative Urine Output in Children Underwent Cardiopulmonary Bypass for Congenital Heart Surgery</div><div class="pub__meta">O. Baloglu, <b>S. D. Ryan</b>, A. M. Onder, D. Rosen, C. J. Mullett, D. Munther · <span class="pub__venue">J. Pediatric Intensive Care</span> (2022)</div><div class="pub__links"><a href="https://www.thieme-connect.com/products/ejournals/abstract/10.1055/s-0042-1758474" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="education"><span class="pub__no">30</span><div><div class="pub__title">An OER Approach to Linear Algebra</div><div class="pub__meta"><b>S. D. Ryan</b>, T. M. Nawalaniec · <span class="pub__venue">PRIMUS</span> 721–737 (2022)</div><div class="pub__links"><a href="https://www.tandfonline.com/doi/full/10.1080/10511970.2021.1905121" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="active materials"><span class="pub__no">29</span><div><div class="pub__title">Influence of PEG on the Clustering of Active Janus Colloid</div><div class="pub__meta">M. Kalil, N. Baumgartner, M. Issa, <b>S. D. Ryan</b>, C. Wirth · <span class="pub__venue">Colloids and Surfaces A</span> 627, 127191 (2021)</div><div class="pub__links"><a href="https://www.sciencedirect.com/science/article/pii/S0927775721010608" target="_blank" rel="noopener">DOI</a><a href="https://arxiv.org/pdf/2101.06206.pdf" target="_blank" rel="noopener">arXiv</a></div></div></li>
+
+      <li class="pub" data-tags="active"><span class="pub__no">28</span><div><div class="pub__title">Heterogeneous Bacterial Swarms with Mixed Lengths</div><div class="pub__meta">S. Peled, <b>S. D. Ryan</b>, S. Heidenreich, M. Bar, G. Ariel, A. Be'er · <span class="pub__venue">Phys. Rev. E</span> 103, 032413 (2021)</div><div class="pub__links"><a href="https://journals.aps.org/pre/pdf/10.1103/PhysRevE.103.032413" target="_blank" rel="noopener">DOI</a><a href="https://arxiv.org/pdf/2011.12612.pdf" target="_blank" rel="noopener">arXiv</a></div></div></li>
+
+      <li class="pub" data-tags="bio"><span class="pub__no">27</span><div><div class="pub__title">Motor Protein Transport Along Inhomogeneous Microtubules</div><div class="pub__meta"><b>S. D. Ryan</b>, Z. McCarthy, M. Potomkin · <span class="pub__venue">Bulletin of Mathematical Biology</span> 83(9), 1–29 (2021)</div><div class="pub__links"><a href="https://link.springer.com/article/10.1007%2Fs11538-020-00838-4" target="_blank" rel="noopener">DOI</a><a href="https://arxiv.org/pdf/2005.01955.pdf" target="_blank" rel="noopener">arXiv</a></div></div></li>
+
+      <li class="pub" data-tags="bio active"><span class="pub__no">26</span><div><div class="pub__title">Interaction of red crabs with yellow crazy ants during migration on Christmas Island</div><div class="pub__meta">N. Baumgartner, <b>S. D. Ryan</b> · <span class="pub__venue">Mathematical Biosciences</span> 330, 108486 (2020)</div><div class="pub__links"><a href="https://www.sciencedirect.com/science/article/pii/S0025556420301371" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="active bio"><span class="pub__no">25</span><div><div class="pub__title">Role of hydrodynamic interactions in chemotaxis of bacterial populations</div><div class="pub__meta"><b>S. D. Ryan</b> · <span class="pub__venue">Physical Biology</span> 17, 016003 (2020) · <em>Featured article</em></div><div class="pub__links"><a href="https://iopscience.iop.org/article/10.1088/1478-3975/ab57af" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="materials"><span class="pub__no">24</span><div><div class="pub__title">Reconciling chord length distributions and area distributions for fields of fractal cumulus clouds</div><div class="pub__meta">N. Barron, <b>S. D. Ryan</b>, T. Heus · <span class="pub__venue">Atmosphere</span> 11(8), 824 (2020)</div><div class="pub__links"><a href="https://www.mdpi.com/2073-4433/11/8/824/htm" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="materials"><span class="pub__no">23</span><div><div class="pub__title">The contributions of shear and turbulence to cloud overlap for cumulus clouds</div><div class="pub__meta">A. Sulak, B. Calabrase, <b>S. D. Ryan</b>, T. Heus · <span class="pub__venue">J. Geophysical Research: Atmospheres</span> 125 (2020)</div><div class="pub__links"><a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JD032017" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="bio clinical"><span class="pub__no">22</span><div><div class="pub__title">Pulsatile Flow Through Idealized Renal Tubules: Fluid-Structure Interaction and Dynamic Pathologies</div><div class="pub__meta">N. Praljak, <b>S. D. Ryan</b>, A. Resnick · <span class="pub__venue">Mathematical Biosciences and Engineering</span> 17(2), 1787–1807 (2020)</div><div class="pub__links"><a href="https://www.aimspress.com/article/10.3934/mbe.2020094" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="active materials"><span class="pub__no">21</span><div><div class="pub__title">Charged Nanoparticles Quench the Propulsion of Active Janus Colloids</div><div class="pub__meta">M. Issa, N. Baumgartner, M. Kalil, <b>S. D. Ryan</b>, C. Wirth · <span class="pub__venue">ACS Omega</span> 4(8), 13034–13041 (2019)</div><div class="pub__links"><a href="https://pubs.acs.org/doi/pdf/10.1021/acsomega.9b00765" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="food"><span class="pub__no">20</span><div><div class="pub__title">An individual-carcass model for quantifying bacterial cross-contamination in an industrial three-stage poultry scalding tank</div><div class="pub__meta">Z. McCarthy, B. Smith, A. Fazil, J. Wu, <b>S. D. Ryan</b>, D. Munther · <span class="pub__venue">Journal of Food Engineering</span> 252, 142–153 (2019)</div><div class="pub__links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0260877419302055" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="active"><span class="pub__no">19</span><div><div class="pub__title">Collective dynamics of two-dimensional swimming bacteria: Experiments and models</div><div class="pub__meta">G. Ariel, M. Sidortsov, <b>S. D. Ryan</b>, S. Heidenreich, M. Bar, A. Be'er · <span class="pub__venue">Phys. Rev. E</span> 98, 032415 (2018)</div><div class="pub__links"><a href="https://journals.aps.org/pre/pdf/10.1103/PhysRevE.98.032415" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="materials"><span class="pub__no">18</span><div><div class="pub__title">The effect of randomness on the distribution of multiple Ginzburg-Landau vortices pinned by small holes</div><div class="pub__meta">L. Berlyand, V. Mityushev, <b>S. D. Ryan</b> · <span class="pub__venue">IMA Journal of Applied Mathematics</span> 83(6), 977–1006 (2018)</div><div class="pub__links"><a href="https://academic.oup.com/imamat/advance-article/doi/10.1093/imamat/hxy033/5066467" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="food"><span class="pub__no">17</span><div><div class="pub__title">pH dependent C. jejuni thermal inactivation models and application to poultry scalding</div><div class="pub__meta">Z. McCarthy, B. Smith, A. Fazil, J. Wu, <b>S. D. Ryan</b>, D. Munther · <span class="pub__venue">Journal of Food Engineering</span> 223, 1–9 (2018)</div><div class="pub__links"><a href="https://www.sciencedirect.com/science/article/pii/S0260877417305009" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="materials education"><span class="pub__no">16</span><div><div class="pub__title">Optimal Shape of Water Towers</div><div class="pub__meta">A. Sulak, <b>S. D. Ryan</b> · <span class="pub__venue">SIAM Undergraduate Research Journal (SIURO)</span> 10, 233–247 (2017)</div><div class="pub__links"><a href="http://www.siam.org/students/siuro/vol10/S01578.pdf" target="_blank" rel="noopener">PDF</a></div></div></li>
+
+      <li class="pub" data-tags="food bio"><span class="pub__no">15</span><div><div class="pub__title">Individual based modeling and analysis of pathogen levels in poultry chilling process</div><div class="pub__meta">Z. McCarthy, B. Smith, A. Fazil, J. Wu, <b>S. D. Ryan</b>, D. Munther · <span class="pub__venue">Mathematical Biosciences</span> 294, 172–180 (2017)</div><div class="pub__links"><a href="https://www.sciencedirect.com/science/article/pii/S0025556417302328" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="food"><span class="pub__no">14</span><div><div class="pub__title">Mechanisms of bacterial contamination in poultry chill tanks</div><div class="pub__meta">Z. McCarthy, D. Munther, <b>S. D. Ryan</b>, J. Wu · <span class="pub__venue">Technical Report, Public Health Agency of Canada</span> (2017)</div></div></li>
+
+      <li class="pub" data-tags="materials"><span class="pub__no">13</span><div><div class="pub__title">A finite volume method for computing flow induced orientation of nematic liquid crystals</div><div class="pub__meta"><b>S. D. Ryan</b>, G. Richards, X. Zheng, P. Palffy-Muhoray · <span class="pub__venue">Molecular Crystals and Liquid Crystals</span> 647(1), 207–215 (2017)</div><div class="pub__links"><a href="http://www.tandfonline.com/doi/full/10.1080/15421406.2017.1289594" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="active"><span class="pub__no">12</span><div><div class="pub__title">Anomalous fluctuations in the orientation and velocity of swarming bacteria</div><div class="pub__meta"><b>S. D. Ryan</b>, G. Ariel, A. Be'er · <span class="pub__venue">Biophysical Journal</span> 111(1), 247–255 (2016)</div><div class="pub__links"><a href="http://www.cell.com/biophysj/fulltext/S0006-3495(16)30390-3" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="materials"><span class="pub__no">11</span><div><div class="pub__title">Curvature-driven foam coarsening on a sphere: A computer simulation</div><div class="pub__meta"><b>S. D. Ryan</b>, X. Zheng, P. Palffy-Muhoray · <span class="pub__venue">Physical Review E</span> 93, 053301 (2016) · <em>PRE Kaleidoscope</em></div><div class="pub__links"><a href="http://journals.aps.org/pre/pdf/10.1103/PhysRevE.93.053301" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="active"><span class="pub__no">10</span><div><div class="pub__title">Effective rheological properties in semidilute bacterial suspensions</div><div class="pub__meta">M. Potomkin, <b>S. D. Ryan</b>, L. Berlyand · <span class="pub__venue">Bulletin of Mathematical Biology</span> 78(3), 580–615 (2016)</div><div class="pub__links"><a href="http://link.springer.com/article/10.1007%2Fs11538-016-0156-2" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="active bio"><span class="pub__no">09</span><div><div class="pub__title">A Model for Collective Dynamics in Ant Raids</div><div class="pub__meta"><b>S. D. Ryan</b> · <span class="pub__venue">Journal of Mathematical Biology</span> 72(6), 1579–1606 (2016)</div><div class="pub__links"><a href="http://link.springer.com/article/10.1007/s00285-015-0929-5" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="materials"><span class="pub__no">08</span><div><div class="pub__title">Rayleigh Approximation for ground states of the Bose and Coulomb glasses</div><div class="pub__meta"><b>S. D. Ryan</b>, V. Mityushev, V. M. Vinokur, L. Berlyand · <span class="pub__venue">Scientific Reports (Nature)</span> 5, 7821 (2015)</div><div class="pub__links"><a href="http://www.nature.com/srep/2015/150116/srep07821/pdf/srep07821.pdf" target="_blank" rel="noopener">PDF</a></div></div></li>
+
+      <li class="pub" data-tags="active"><span class="pub__no">07</span><div><div class="pub__title">Effective Properties and Collective Dynamics in Bacterial Suspensions</div><div class="pub__meta"><b>S. D. Ryan</b> · <span class="pub__venue">Ph.D. Dissertation</span> (2014) · <em>Pritchard Award</em></div><div class="pub__links"><a href="https://academic.csuohio.edu/ryan-shawn/publications/docs/SRyan_thesis.pdf" target="_blank" rel="noopener">PDF</a></div></div></li>
+
+      <li class="pub" data-tags="active"><span class="pub__no">06</span><div><div class="pub__title">Correlation properties of collective motion in bacterial suspensions</div><div class="pub__meta"><b>S. D. Ryan</b>, A. Sokolov, L. Berlyand, I. S. Aranson · <span class="pub__venue">New Journal of Physics</span> 15, 105021 (2013) · <em>Highlight of 2013</em></div><div class="pub__links"><a href="https://academic.csuohio.edu/ryan-shawn/publications/docs/RyaSokBerAra13.pdf" target="_blank" rel="noopener">PDF</a></div></div></li>
+
+      <li class="pub" data-tags="active"><span class="pub__no">05</span><div><div class="pub__title">A Kinetic Model for Semi-Dilute Bacterial Suspensions</div><div class="pub__meta"><b>S. D. Ryan</b>, L. Berlyand, B. M. Haines, D. Karpeev · <span class="pub__venue">SIAM Multiscale Modeling and Simulation</span> 11(4), 1176–1196 (2013)</div><div class="pub__links"><a href="https://academic.csuohio.edu/ryan-shawn/publications/docs/RyaBerHaiKar12.pdf" target="_blank" rel="noopener">PDF</a></div></div></li>
+
+      <li class="pub" data-tags="materials"><span class="pub__no">04</span><div><div class="pub__title">Buckling of a Graphene Sheet Perpendicular to a Rigid Substrate</div><div class="pub__meta"><b>S. D. Ryan</b>, D. Golovaty, J. P. Wilber · <span class="pub__venue">International Journal of Solids and Structures</span> 49, 3681–3692 (2012)</div><div class="pub__links"><a href="http://www.sciencedirect.com/science/article/pii/S0020768312003277" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="active"><span class="pub__no">03</span><div><div class="pub__title">Viscosity of bacterial suspensions: Hydrodynamic interactions and self-induced noise</div><div class="pub__meta"><b>S. D. Ryan</b>, B. M. Haines, L. Berlyand, F. Ziebert, I. S. Aranson · <span class="pub__venue">Phys. Rev. E (Rapid Comm.)</span> 83, 050904(R) (2011)</div><div class="pub__links"><a href="http://pre.aps.org/abstract/PRE/v83/i5/e050904" target="_blank" rel="noopener">DOI</a></div></div></li>
+
+      <li class="pub" data-tags="materials"><span class="pub__no">02</span><div><div class="pub__title">Bifurcation and Boundary Layer Analysis for Graphene Sheets</div><div class="pub__meta"><b>S. D. Ryan</b> · <span class="pub__venue">M.S. Thesis, University of Akron</span> (2009)</div><div class="pub__links"><a href="https://academic.csuohio.edu/ryan-shawn/publications/docs/akronthesis.pdf" target="_blank" rel="noopener">PDF</a></div></div></li>
+
+      <li class="pub" data-tags="materials"><span class="pub__no">01</span><div><div class="pub__title">A Buckling Problem For Graphene Sheets</div><div class="pub__meta">J. Gallagher, Y. Milman, S. Ryan, D. Golovaty, P. Wilber, A. Buldum · <span class="pub__venue">Proc. 11th Int. Congress on Continuum Modeling of Discrete Systems</span> (2007)</div><div class="pub__links"><a href="https://academic.csuohio.edu/ryan-shawn/publications/docs/golovaty_cmds11.pdf" target="_blank" rel="noopener">PDF</a></div></div></li>
+
+    </ul>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <a class="brand" href="index.html"><span class="mark">R</span><span>Ryan Research Group<small>Cleveland State University</small></span></a>
+        <p class="muted" style="margin-top:1rem;max-width:34ch;font-size:.92rem;">Applied and computational mathematics for living and physical systems. Cleveland, Ohio.</p>
+      </div>
+      <div><h4>Explore</h4><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="group.html">Group</a><a href="teaching.html">Teaching</a></div>
+      <div><h4>Elsewhere</h4><a href="https://academic.csuohio.edu/adam/" target="_blank" rel="noopener">ADAM Center</a><a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a><a href="https://github.com/sdryan/" target="_blank" rel="noopener">GitHub</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="foot__bottom"><span>© 2026 Shawn D. Ryan · Ryan Research Group</span><span class="mono">Built independent of the university CMS</span></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

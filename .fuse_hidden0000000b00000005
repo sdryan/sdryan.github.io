@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Teaching — Ryan Research Group</title>
+<meta name="description" content="Teaching and mentorship by Shawn D. Ryan: award-winning instruction in applied mathematics, open educational resources, and research mentoring at Cleveland State University." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html"><span class="mark">R</span><span>Ryan Research Group<small>Applied Math &amp; Math Biology</small></span></a>
+    <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="group.html">Group</a>
+      <a href="teaching.html" aria-current="page">Teaching</a>
+      <a class="nav__cta" href="contact.html"><span class="btn btn--accent" style="padding:.5rem 1rem;font-size:.9rem;">Contact</span></a>
+    </nav>
+  </div>
+</header>
+
+<section class="phead">
+  <div class="abs-grid grid-bg"></div>
+  <div class="wrap phead__inner">
+    <span class="eyebrow">Teaching</span>
+    <h1 style="max-width:15ch;">Award-winning instruction, and mentorship that sticks.</h1>
+    <p class="lead" style="margin-top:1rem;">Recognized university-wide for teaching and student impact. Four alumni-nominated Golden Apple awards, the 2023 CSU Distinguished Faculty Award for Teaching, and the Jearl D. Walker Award.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="awards reveal">
+      <div class="award"><span class="yr">2023–24</span><p>CSU Distinguished Faculty Award for Teaching</p></div>
+      <div class="award"><span class="yr">2023–24</span><p>Jearl D. Walker Outstanding Teaching Award</p></div>
+      <div class="award"><span class="yr">2025 · 2022 · 2020 · 2018</span><p>CSU Alumni Golden Apple Award</p></div>
+      <div class="award"><span class="yr">2018 · 2020 · 2023</span><p>CSU Provost Faculty Merit Award (Teaching &amp; Research)</p></div>
+      <div class="award"><span class="yr">2021–22</span><p>Faculty Champion Award, Center for Faculty Excellence</p></div>
+      <div class="award"><span class="yr">2012</span><p>Penn State Department of Mathematics Teaching Award</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--paper-2);border-block:1px solid var(--line);">
+  <div class="wrap split">
+    <div class="reveal">
+      <span class="eyebrow">Affordability</span>
+      <h2>Open educational resources.</h2>
+      <p class="lead">I'm a CSU Affordability Advocate and have built open resources that cut textbook costs for students, including an OER approach to linear algebra published in PRIMUS.</p>
+      <p>Lowering the cost of a math degree without lowering its quality. That work earned an OER Faculty Letter of Recognition and feeds directly into the courses I teach.</p>
+      <div style="margin-top:1.2rem;"><a class="btn btn--ghost" href="https://researchguides.csuohio.edu/affordabilityadvocates/shawnryan" target="_blank" rel="noopener">Affordability profile <span class="arw">→</span></a></div>
+    </div>
+    <div class="panel reveal">
+      <span class="eyebrow">The seminar</span>
+      <h3 style="color:#fff;">A weekly group seminar</h3>
+      <p style="color:rgba(255,255,255,.72);">Students present work in progress and completed projects, sharpen their presentations, and get feedback. Advanced topics get short, applied introductions, from harmonic functions to Arzelà–Ascoli, so students see the power of higher mathematics in context.</p>
+      <div class="chips">
+        <span class="chip">Present</span>
+        <span class="chip">Critique</span>
+        <span class="chip">Iterate</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Courses</span>
+      <h2>What I teach.</h2>
+      <p class="lead">Twelve sections of eight different courses across the University of Akron, Penn State, Kent State, and CSU, with consistently high evaluations. Add your current term's offerings below.</p>
+    </div>
+    <div class="cards reveal">
+      <div class="card"><span class="card__tag">Undergraduate</span><h3 style="font-size:1.1rem;">Calculus sequence</h3><p>Single- and multivariable calculus.</p></div>
+      <div class="card"><span class="card__tag">Undergraduate</span><h3 style="font-size:1.1rem;">Linear algebra</h3><p>Taught with open educational resources.</p></div>
+      <div class="card"><span class="card__tag">Undergraduate</span><h3 style="font-size:1.1rem;">Differential equations</h3><p>ODEs and applications to modeling.</p></div>
+      <div class="card"><span class="card__tag">Graduate / topics</span><h3 style="font-size:1.1rem;">Mathematical modeling</h3><p>Agent-based models, PDEs, and simulation.</p></div>
+    </div>
+    <p class="muted" style="margin-top:1.5rem;font-size:.9rem;">Current course offerings: <a href="https://academic.csuohio.edu/ryan-shawn/mth-ug-courseofferings/" target="_blank" rel="noopener">MTH undergraduate course offerings</a>.</p>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <a class="brand" href="index.html"><span class="mark">R</span><span>Ryan Research Group<small>Cleveland State University</small></span></a>
+        <p class="muted" style="margin-top:1rem;max-width:34ch;font-size:.92rem;">Applied and computational mathematics for living and physical systems. Cleveland, Ohio.</p>
+      </div>
+      <div><h4>Explore</h4><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="group.html">Group</a><a href="teaching.html">Teaching</a></div>
+      <div><h4>Elsewhere</h4><a href="https://academic.csuohio.edu/adam/" target="_blank" rel="noopener">ADAM Center</a><a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a><a href="https://github.com/sdryan/" target="_blank" rel="noopener">GitHub</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="foot__bottom"><span>© 2026 Shawn D. Ryan · Ryan Research Group</span><span class="mono">Built independent of the university CMS</span></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

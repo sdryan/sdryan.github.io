@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Research — Ryan Research Group</title>
+<meta name="description" content="Research topics of the Ryan Research Group: collective motion in active biosystems, poultry food-safety modeling, mathematical biology, materials science, and equation learning with PINNs and BINNs." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html"><span class="mark">R</span><span>Ryan Research Group<small>Applied Math &amp; Math Biology</small></span></a>
+    <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="demo.html">Demo</a>
+      <a href="group.html">Group</a>
+      <a href="teaching.html">Teaching</a>
+      <a class="nav__cta" href="contact.html"><span class="btn btn--accent" style="padding:.5rem 1rem;font-size:.9rem;">Contact</span></a>
+    </nav>
+  </div>
+</header>
+
+<!-- PAGE HEADER -->
+<section class="phead">
+  <div class="abs-grid grid-bg"></div>
+  <div class="wrap phead__inner">
+    <span class="eyebrow">Research</span>
+    <h1 style="max-width:16ch;">Models built at the interface of math, physics, and biology.</h1>
+    <p class="lead" style="margin-top:1rem;">I develop differential-equation and agent-based models for biosystems and materials that predict the emergence of collective behavior, and the dramatic changes in effective properties it produces. Analysis and simulation do the rest.</p>
+  </div>
+</section>
+
+<!-- FUNDING STRIP -->
+<section class="section" style="padding-block:clamp(48px,6vw,72px);">
+  <div class="wrap">
+    <span class="eyebrow reveal">External funding</span>
+    <div class="cards reveal" style="margin-top:1.2rem;">
+      <div class="card"><span class="card__tag">2023–2026 · USDA-NIFA</span><h3 style="font-size:1.15rem;">$498,178</h3><p>Poultry food-safety modeling. Co-PI with D. Munther (PI) and C. Kothapalli.</p></div>
+      <div class="card"><span class="card__tag">2023–2027 · NSF REU</span><h3 style="font-size:1.15rem;">$365,000</h3><p>Senior Personnel. Undergraduate research in the mathematical sciences.</p></div>
+      <div class="card"><span class="card__tag">2017–present · OSC</span><h3 style="font-size:1.15rem;">Ohio Supercomputer</h3><p>Compute allocation (PI) for large-scale agent-based simulation.</p></div>
+      <div class="card"><span class="card__tag">2017 · PHAC</span><h3 style="font-size:1.15rem;">Grant #582090</h3><p>Public Health Agency of Canada. Co-PI with D. Munther.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TOPICS -->
+<section class="section" style="background:var(--paper-2);border-block:1px solid var(--line);">
+  <div class="wrap">
+    <div class="prose">
+      <span class="eyebrow reveal">Active threads</span>
+
+      <div class="topic reveal">
+        <span class="card__tag">Priority · new methods</span>
+        <h3>Equation learning with PINNs &amp; BINNs</h3>
+        <p>Agent-based models capture mechanism, but they don't produce a governing equation you can analyze. I'm building physics-informed and biology-informed neural networks that recover the continuum PDE hiding inside an ABM. The concrete goal is a repeatable pipeline: run the model, generate data, train the network, discover the equation, validate against the simulation. This is the foundation for the group's next papers and an NSF Applied Mathematics proposal on the ABM–BINN connection.</p>
+      </div>
+
+      <div class="topic reveal">
+        <span class="card__tag">Collective motion</span>
+        <h3>Active biosystems: bacteria, swarms, and social insects</h3>
+        <p><b>Effective viscosity.</b> A suspension of swimming bacteria can have its viscosity dramatically reduced by long-range hydrodynamic interactions intrinsic to self-locomotion. A tractable model reproduces the reduction seen in <em>Bacillus subtilis</em> experiments, ties it to the onset of large-scale collective motion, and yields an explicit asymptotic formula. The reduction appears only at low concentration; push further and viscosity climbs again.</p>
+        <p><b>Global solvability.</b> For a coupled PDE/ODE system of point-force dipoles under planar shear (imposed through Lees–Edwards quasi-periodic boundary conditions), I proved existence and uniqueness of solutions for all time, then used it to define the Liouville equation for the configuration density and the average bulk stress underlying the effective viscosity. Micro interactions determine macro properties.</p>
+        <p><b>Social insect behavior.</b> Ant foraging and raiding modeled from first principles: different equations of motion for outbound foragers and returning ants, coupled to a reaction–diffusion PDE for pheromone. The model self-organizes into three lanes, two outbound and one central return lane, matching experiment. A continuum PDE for ant density is in progress.</p>
+        <div class="figs reveal">
+          <figure class="fig"><img src="assets/fig-bacteria.png" data-fallback="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2022/05/bact.png" referrerpolicy="no-referrer" alt="Swimming bacteria modeled as pusher and puller force dipoles" loading="lazy" /><figcaption><b>Pushers &amp; pullers.</b> Bacteria as force dipoles with size and shape.</figcaption></figure>
+          <figure class="fig"><img src="assets/fig-viscosity.png" data-fallback="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2022/05/ev.png" referrerpolicy="no-referrer" alt="Plot of effective viscosity decreasing then increasing with concentration" loading="lazy" /><figcaption><b>Viscosity collapse.</b> Reduction at low concentration, rise beyond it.</figcaption></figure>
+          <figure class="fig"><img src="assets/fig-lees-edwards.png" data-fallback="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2022/05/le_bcs.png" referrerpolicy="no-referrer" alt="Lees-Edwards quasi-periodic boundary conditions on a bacterial suspension" loading="lazy" /><figcaption><b>Lees–Edwards BCs.</b> Planar shear on a representative volume.</figcaption></figure>
+          <figure class="fig"><img src="assets/fig-vortex.png" data-fallback="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2022/05/vort.png" referrerpolicy="no-referrer" alt="Vortex structure in collective bacterial flow" loading="lazy" /><figcaption><b>Collective flow.</b> Large-scale vortices from local interactions.</figcaption></figure>
+          <figure class="fig fig--wide"><img src="assets/fig-ants.png" data-fallback="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2022/05/ant_trail.png" referrerpolicy="no-referrer" alt="Simulation of ants foraging at a food source with three-lane traffic" loading="lazy" /><figcaption><b>Three-lane foraging.</b> Outbound foragers on the outside, returning ants down the center, matching experiment.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="topic reveal">
+        <span class="card__tag">Food safety</span>
+        <h3>Bacterial contamination in poultry processing</h3>
+        <p>Individual-carcass and spatial models track <em>Campylobacter</em> and <em>E. coli</em> through scalding and chilling, including the effect of water reuse on cross-contamination and pH-dependent thermal inactivation. This is the USDA-NIFA-funded thread, built alongside experimentalists and public-health partners, and it feeds directly into processing-line risk assessment.</p>
+      </div>
+
+      <div class="topic reveal">
+        <span class="card__tag">Mathematical biology</span>
+        <h3>Cells, consortia, and the clinic</h3>
+        <p>Agent-based modeling of nuclear chromosome ensembles identifies determinants of homolog pairing during meiosis. Spatial models of synthetic microbial consortia explain heterogeneity in engineered systems. Clinical collaborations produced a validated model estimating postoperative urine output in children after cardiac surgery, and fluid–structure interaction models of renal tubules and primary cilia.</p>
+      </div>
+
+      <div class="topic reveal">
+        <span class="card__tag">Materials science</span>
+        <h3>Liquid crystals, superconductivity, and graphene</h3>
+        <p><b>Foam coarsening on a sphere.</b> An effective von Neumann relation on the sphere, extending the classic 2D law where a cell's area change depends only on its number of sides. On the sphere there are no stationary states, which changes the long-time behavior entirely.</p>
+        <p><b>Ginzburg–Landau superconductivity.</b> Quantifying how randomness in columnar-defect locations reshapes the vortex distribution. As randomness grows the interface becomes more fractal and the critical field for hole vortices drops, rewriting the field–temperature phase diagram.</p>
+        <p><b>Graphene deformation.</b> A coupled-ODE model for a graphene sheet suspended above a substrate by van der Waals forces, with buckling bifurcations analyzed by matched asymptotics. Two publications and a master's thesis.</p>
+        <div class="figs reveal">
+          <figure class="fig"><img src="assets/fig-foam.gif" data-fallback="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2022/05/gif.gif" referrerpolicy="no-referrer" alt="Foam coarsening on a sphere simulation" loading="lazy" /><figcaption><b>Foam on a sphere.</b> An effective von Neumann law in 3D.</figcaption></figure>
+          <figure class="fig"><img src="assets/fig-ginzburg.png" data-fallback="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2022/06/gl_rand-1024x379.png" referrerpolicy="no-referrer" alt="Effect of random hole placement on Ginzburg-Landau vortex geometry" loading="lazy" /><figcaption><b>Vortex randomness.</b> Defect disorder reshapes the phase diagram.</figcaption></figure>
+          <figure class="fig"><img src="assets/fig-graphene-model.png" data-fallback="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2022/06/graphene_model.png" referrerpolicy="no-referrer" alt="Graphene sheet deforming above a rigid substrate under load" loading="lazy" /><figcaption><b>Graphene buckling.</b> Sheet on substrate via van der Waals forces.</figcaption></figure>
+          <figure class="fig"><img src="assets/fig-graphene-stability.png" data-fallback="https://academic.csuohio.edu/ryan-shawn/wp-content/uploads/sites/66/2022/06/graphene_stability.png" referrerpolicy="no-referrer" alt="Phase diagram of buckling stability regions for graphene" loading="lazy" /><figcaption><b>Stability regions.</b> Pushing vs pulling bifurcation mechanisms.</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRESS -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">In the press</span>
+      <h2>Work that traveled.</h2>
+    </div>
+    <div class="cards reveal">
+      <div class="card"><span class="card__tag">CSU News</span><p style="color:var(--ink);font-weight:600;margin-bottom:.3rem;">New synthetic biology paper with chemistry alum Ryan Godin</p><p>Coverage of the spatial-consortia modeling work.</p></div>
+      <div class="card"><span class="card__tag">FSU News</span><p style="color:var(--ink);font-weight:600;margin-bottom:.3rem;">"Chatterboxes": a new model of how bacteria communicate</p><p>Collaboration featured by Florida State University.</p></div>
+      <div class="card"><span class="card__tag">Phys. Rev. E</span><p style="color:var(--ink);font-weight:600;margin-bottom:.3rem;">Kaleidoscope selection, best aesthetic images</p><p>Foam-coarsening-on-a-sphere simulation, 2016.</p></div>
+      <div class="card"><span class="card__tag">Physical Biology</span><p style="color:var(--ink);font-weight:600;margin-bottom:.3rem;">Featured article, homepage</p><p>Hydrodynamic interactions in bacterial chemotaxis, 2019–2020.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="cta reveal">
+      <h2>Want the full record?</h2>
+      <p>Every paper, from the graphene work through the newest food-safety and foraging models.</p>
+      <div style="margin-top:1.4rem;"><a class="btn btn--accent" href="publications.html">Browse 47 publications <span class="arw">→</span></a></div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <a class="brand" href="index.html"><span class="mark">R</span><span>Ryan Research Group<small>Cleveland State University</small></span></a>
+        <p class="muted" style="margin-top:1rem;max-width:34ch;font-size:.92rem;">Applied and computational mathematics for living and physical systems. Cleveland, Ohio.</p>
+      </div>
+      <div><h4>Explore</h4><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="group.html">Group</a><a href="teaching.html">Teaching</a></div>
+      <div><h4>Elsewhere</h4><a href="https://academic.csuohio.edu/adam/" target="_blank" rel="noopener">ADAM Center</a><a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a><a href="https://github.com/sdryan/" target="_blank" rel="noopener">GitHub</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="foot__bottom"><span>© 2026 Shawn D. Ryan · Ryan Research Group</span><span class="mono">Built independent of the university CMS</span></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
