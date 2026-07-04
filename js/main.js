@@ -141,7 +141,8 @@
 (function pubFilter() {
   const bar = document.querySelector(".pubfilter");
   if (!bar) return;
-  const pubs = [...document.querySelectorAll(".pub")];
+  const scope = document.getElementById("published-list") || document;
+  const pubs = [...scope.querySelectorAll(".pub")];
   bar.addEventListener("click", (e) => {
     const b = e.target.closest("button"); if (!b) return;
     bar.querySelectorAll("button").forEach(x => x.classList.remove("is-on"));
