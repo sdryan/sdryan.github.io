@@ -226,6 +226,21 @@ p { margin: 0 0 1em; }
 .person b { display: block; font-family: var(--sans); }
 .person span { font-size: .86rem; color: var(--ink-3); }
 
+/* -------- roster (current members) -------- */
+.person small { display: block; font-size: .8rem; color: var(--ink-2); margin-top: .3rem; line-height: 1.4; }
+.person .role { font-family: var(--mono); font-size: .72rem; letter-spacing: .04em; text-transform: uppercase; color: var(--accent-ink); }
+.subhead { font-family: var(--mono); font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin: 2.4rem 0 1rem; display: flex; align-items: center; gap: .8rem; }
+.subhead::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+/* -------- former members list -------- */
+.former { list-style: none; margin: 0; padding: 0; column-gap: 2rem; }
+.former li { break-inside: avoid; padding: .55rem 0; border-bottom: 1px solid var(--line); font-size: .95rem; }
+.former li b { font-family: var(--sans); font-weight: 600; color: var(--ink); }
+.former li .now { color: var(--ink-2); }
+.former li .proj { color: var(--ink-3); font-size: .86rem; display: block; margin-top: .1rem; }
+.former-cols { columns: 2; column-gap: 2.2rem; }
+@media (max-width: 720px) { .former-cols { columns: 1; } }
+
 /* -------- CTA -------- */
 .cta { background: var(--ink); color: #fff; border-radius: var(--radius); padding: clamp(2.4rem,5vw,4rem); text-align: center; position: relative; overflow: hidden; }
 .cta h2 { color: #fff; }
@@ -302,7 +317,11 @@ p { margin: 0 0 1em; }
   .stats { grid-template-columns: 1fr 1fr; }
   .foot__grid { grid-template-columns: 1fr; }
   .pub { grid-template-columns: 1fr; gap: .3rem; }
+  .hero__cta .btn, .hero__cta { width: 100%; }
+  .hero__cta .btn { justify-content: center; }
 }
+/* long-token safety so nothing clips on narrow screens */
+.former li, .pub__meta, .pub__title, .person small, .card p, .hero__meta b { overflow-wrap: anywhere; }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; }
