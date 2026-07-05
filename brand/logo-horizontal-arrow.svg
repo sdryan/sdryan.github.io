@@ -1,0 +1,14 @@
+<svg width="560" height="130" viewBox="0 0 560 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ryan Research Group">
+  <g transform="translate(15,15)" fill="#00573F">
+    <polygon points="58,8 44,14 52,22"/>
+    <polygon points="87.4,25 73.4,31 81.4,39"/>
+    <polygon points="87.4,59 73.4,65 81.4,73"/>
+    <polygon points="58,76 44,82 52,90"/>
+    <polygon points="28.6,59 14.6,65 22.6,73"/>
+    <polygon points="28.6,25 14.6,31 22.6,39"/>
+  </g>
+  <text x="65" y="76" text-anchor="middle" font-family="'Georgia','Times New Roman',serif" font-size="30" font-weight="bold" fill="#B4924F">R</text>
+  <text x="140" y="62" font-family="'Georgia','Times New Roman',serif" font-size="34" fill="#10251C" letter-spacing="0.5">Ryan Research Group</text>
+  <line x1="142" y1="78" x2="470" y2="78" stroke="#B4924F" stroke-width="1"/>
+  <text x="142" y="98" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#00573F" letter-spacing="3">APPLIED MATH &amp; MATH BIOLOGY</text>
+</svg>

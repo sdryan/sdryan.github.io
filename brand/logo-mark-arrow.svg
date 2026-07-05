@@ -1,0 +1,11 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ryan Research Group mark">
+  <g fill="#00573F">
+    <polygon points="58,8 44,14 52,22"/>
+    <polygon points="87.4,25 73.4,31 81.4,39"/>
+    <polygon points="87.4,59 73.4,65 81.4,73"/>
+    <polygon points="58,76 44,82 52,90"/>
+    <polygon points="28.6,59 14.6,65 22.6,73"/>
+    <polygon points="28.6,25 14.6,31 22.6,39"/>
+  </g>
+  <text x="50" y="61" text-anchor="middle" font-family="'Georgia','Times New Roman',serif" font-size="30" font-weight="bold" fill="#B4924F">R</text>
+</svg>

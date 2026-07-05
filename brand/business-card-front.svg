@@ -1,0 +1,20 @@
+<svg width="3.5in" height="2in" viewBox="0 0 350 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Business card front">
+  <rect width="350" height="200" fill="#FFFFFF"/>
+  <g transform="translate(30,26) scale(0.52)">
+    <g fill="#00573F">
+      <polygon points="58,8 44,14 52,22"/>
+      <polygon points="87.4,25 73.4,31 81.4,39"/>
+      <polygon points="87.4,59 73.4,65 81.4,73"/>
+      <polygon points="58,76 44,82 52,90"/>
+      <polygon points="28.6,59 14.6,65 22.6,73"/>
+      <polygon points="28.6,25 14.6,31 22.6,39"/>
+    </g>
+    <text x="50" y="61" text-anchor="middle" font-family="'Georgia','Times New Roman',serif" font-size="30" font-weight="bold" fill="#B4924F">R</text>
+  </g>
+  <text x="30" y="116" font-family="'Georgia','Times New Roman',serif" font-size="17" fill="#10251C">Shawn D. Ryan, Ph.D.</text>
+  <text x="30" y="132" font-family="'Helvetica Neue',Arial,sans-serif" font-size="7.5" fill="#00573F" letter-spacing="0.8">ASSOCIATE PROFESSOR · PRINCIPAL INVESTIGATOR</text>
+  <line x1="30" y1="144" x2="120" y2="144" stroke="#B4924F" stroke-width="1"/>
+  <text x="30" y="163" font-family="'Georgia','Times New Roman',serif" font-size="10.5" fill="#00573F">Ryan Research Group</text>
+  <text x="30" y="178" font-family="'Helvetica Neue',Arial,sans-serif" font-size="7.6" fill="#6E6E68">Department of Mathematics &amp; Statistics · Cleveland State University</text>
+  <text x="30" y="190" font-family="'Helvetica Neue',Arial,sans-serif" font-size="7.6" fill="#6E6E68">sdryan.github.io</text>
+</svg>

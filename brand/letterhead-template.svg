@@ -1,0 +1,16 @@
+<svg width="8.5in" height="11in" viewBox="0 0 850 1100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ryan Research Group letterhead">
+  <rect width="850" height="1100" fill="#FFFFFF"/>
+  <g transform="translate(60,52) scale(0.62)">
+    <g transform="translate(15,15)" fill="#00573F">
+      <polygon points="58,8 44,14 52,22"/><polygon points="87.4,25 73.4,31 81.4,39"/><polygon points="87.4,59 73.4,65 81.4,73"/><polygon points="58,76 44,82 52,90"/><polygon points="28.6,59 14.6,65 22.6,73"/><polygon points="28.6,25 14.6,31 22.6,39"/>
+    </g>
+    <text x="65" y="76" text-anchor="middle" font-family="'Georgia','Times New Roman',serif" font-size="30" font-weight="bold" fill="#B4924F">R</text>
+    <text x="140" y="62" font-family="'Georgia','Times New Roman',serif" font-size="34" fill="#10251C">Ryan Research Group</text>
+    <line x1="142" y1="78" x2="470" y2="78" stroke="#B4924F" stroke-width="1"/>
+    <text x="142" y="98" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#00573F" letter-spacing="3">APPLIED MATH &amp; MATH BIOLOGY</text>
+  </g>
+  <line x1="60" y1="150" x2="790" y2="150" stroke="#E5E2DA" stroke-width="1"/>
+  <line x1="60" y1="1032" x2="790" y2="1032" stroke="#B4924F" stroke-width="1"/>
+  <text x="425" y="1056" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#6E6E68" letter-spacing="1.2">Department of Mathematics &amp; Statistics · Cleveland State University</text>
+  <text x="425" y="1072" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#00573F" letter-spacing="1.2">sdryan.github.io</text>
+</svg>
