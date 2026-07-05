@@ -16,46 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="icon" type="image/svg+xml" href="brand/favicon-arrow.svg" />
 <link rel="apple-touch-icon" href="brand/png/favicon-180.png" />
-<link rel="canonical" href="https://sdryan.github.io/" />
 <link rel="stylesheet" href="css/style.css" />
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Shawn D. Ryan",
-  "givenName": "Shawn",
-  "familyName": "Ryan",
-  "jobTitle": "Associate Professor of Mathematics and Statistics",
-  "url": "https://sdryan.github.io/",
-  "image": "https://sdryan.github.io/assets/headshot.png",
-  "email": "s.d.ryan@csuohio.edu",
-  "affiliation": {
-    "@type": "CollegeOrUniversity",
-    "name": "Cleveland State University",
-    "url": "https://www.csuohio.edu/"
-  },
-  "worksFor": {
-    "@type": "CollegeOrUniversity",
-    "name": "Cleveland State University"
-  },
-  "knowsAbout": [
-    "Applied Mathematics",
-    "Mathematical Biology",
-    "Agent-based modeling",
-    "Collective motion",
-    "Active matter",
-    "Physics-informed neural networks",
-    "Equation learning",
-    "Food-safety modeling"
-  ],
-  "sameAs": [
-    "https://scholar.google.com/citations?user=qBnlp3wAAAAJ",
-    "https://academic.csuohio.edu/ryan-shawn/",
-    "https://github.com/sdryan",
-    "https://www.researchgate.net/profile/Shawn-Ryan-3"
-  ]
-}
-</script>
 </head>
 <body>
 
@@ -300,7 +261,7 @@
       <div>
         <h4>Elsewhere</h4>
         <a href="https://academic.csuohio.edu/adam/" target="_blank" rel="noopener">ADAM Center</a>
-        <a href="https://scholar.google.com/citations?user=qBnlp3wAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
         <a href="https://github.com/sdryan/" target="_blank" rel="noopener">GitHub</a>
         <a href="contact.html">Contact</a>
       </div>
