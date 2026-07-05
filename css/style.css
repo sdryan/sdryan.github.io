@@ -234,6 +234,12 @@ p { margin: 0 0 1em; }
 .subhead { font-family: var(--mono); font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin: 2.4rem 0 1rem; display: flex; align-items: center; gap: .8rem; }
 .subhead::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 
+/* -------- notes list (teaching) -------- */
+.notes-list { list-style: none; margin: .4rem 0 0; padding: 0; }
+.notes-list li { padding: .45rem 0; border-bottom: 1px solid var(--line); }
+.notes-list a { font-family: var(--sans); font-weight: 600; }
+.notes-list .muted { font-family: var(--body); font-weight: 400; font-size: .9rem; }
+
 /* -------- former members list -------- */
 .former { list-style: none; margin: 0; padding: 0; column-gap: 2rem; }
 .former li { break-inside: avoid; padding: .55rem 0; border-bottom: 1px solid var(--line); font-size: .95rem; }
