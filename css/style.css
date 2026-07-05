@@ -234,6 +234,14 @@ p { margin: 0 0 1em; }
 .subhead { font-family: var(--mono); font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin: 2.4rem 0 1rem; display: flex; align-items: center; gap: .8rem; }
 .subhead::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 
+/* -------- collaborator cards -------- */
+.collab { display: block; text-decoration: none; color: inherit; }
+.collab:hover { text-decoration: none; }
+.collab h3 { display: flex; align-items: baseline; gap: .35rem; }
+.collab h3::after { content: "↗"; font-size: .72em; color: var(--accent); opacity: .35; transition: opacity .15s ease, transform .15s ease; }
+.collab:hover h3::after { opacity: 1; transform: translate(1px, -1px); }
+.collab-aff { display: block; font-family: var(--mono); font-size: .72rem; letter-spacing: .05em; text-transform: uppercase; color: var(--accent-ink); margin: .15rem 0 .55rem; }
+
 /* -------- notes list (teaching) -------- */
 .notes-list { list-style: none; margin: .4rem 0 0; padding: 0; }
 .notes-list li { padding: .45rem 0; border-bottom: 1px solid var(--line); }
