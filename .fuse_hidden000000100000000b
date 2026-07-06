@@ -31,7 +31,7 @@
 </header>
 
 <section class="phead">
-  <div class="abs-grid grid-bg"></div><img class="phead-emblem" src="brand/logo-mark-arrow-organized.svg" alt="" aria-hidden="true" />
+  <div class="abs-grid grid-bg"></div>
   <div class="wrap phead__inner">
     <span class="eyebrow">Contact</span>
     <h1>Get in touch.</h1>

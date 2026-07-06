@@ -32,7 +32,7 @@
 
 <!-- PAGE HEADER -->
 <section class="phead">
-  <div class="abs-grid grid-bg"></div><img class="phead-emblem" src="brand/logo-mark-arrow-organized.svg" alt="" aria-hidden="true" />
+  <div class="abs-grid grid-bg"></div>
   <div class="wrap phead__inner">
     <span class="eyebrow">Research</span>
     <h1 style="max-width:16ch;">Models built at the interface of math, physics, and biology.</h1>

@@ -283,6 +283,8 @@ p { margin: 0 0 1em; }
 .phead { border-bottom: 1px solid var(--line); position: relative; overflow: hidden; }
 .phead__inner { padding-block: clamp(60px, 8vw, 96px); position: relative; z-index: 2; }
 .phead .abs-grid { position: absolute; inset: 0; z-index: 0; }
+.phead-emblem { position: absolute; right: -28px; top: 50%; transform: translateY(-50%); width: min(300px, 32vw); opacity: .5; z-index: 1; pointer-events: none; }
+@media (max-width: 820px) { .phead-emblem { display: none; } }
 
 /* -------- prose (research detail) -------- */
 .prose { max-width: 70ch; }
