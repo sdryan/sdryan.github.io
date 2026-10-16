@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Group — Ryan Research Group</title>
+<meta name="description" content="The Ryan Research Group: students and collaborators building agent-based and differential-equation models in mathematical biology and applied mathematics at Cleveland State University." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/svg+xml" href="brand/favicon-arrow.svg" />
+<link rel="apple-touch-icon" href="brand/png/favicon-180.png" />
+<link rel="canonical" href="https://sdryan.github.io/group.html" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html"><img class="brand-mark" src="brand/logo-mark-arrow.svg" alt="" width="36" height="36" /><span>Ryan Research Group<small>Applied Math &amp; Math Biology</small></span></a>
+    <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="group.html" aria-current="page">Group</a>
+      <a href="teaching.html">Teaching</a>
+      <a class="nav__cta" href="contact.html"><span class="btn btn--accent" style="padding:.5rem 1rem;font-size:.9rem;">Contact</span></a>
+    </nav>
+  </div>
+</header>
+
+<section class="phead">
+  <div class="abs-grid grid-bg"></div><img class="phead-emblem" src="brand/logo-mark-arrow-organized.svg" alt="" aria-hidden="true" />
+  <div class="wrap phead__inner">
+    <span class="eyebrow">The group</span>
+    <h1 style="max-width:15ch;">Students and collaborators, doing real modeling.</h1>
+    <p class="lead" style="margin-top:1rem;">I build interdisciplinary teams to solve real-world problems in physics, biology, and materials science. The group runs on three principles: connect, teach, and build.</p>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="section">
+  <div class="wrap">
+    <div class="cards">
+      <article class="card reveal"><span class="card__tag">01 · Connect</span><h3>Build the network</h3><p>Collaboration across three levels: inside the department with analysts and numerical experts, across the university with the sciences, and nationally with longtime partners at Penn State, Argonne, and beyond.</p></article>
+      <article class="card reveal"><span class="card__tag">02 · Teach</span><h3>Mentor through research</h3><p>Students learn by doing the work: deriving models, running simulations, and presenting in a weekly group seminar. Twelve sections of eight courses taught, with consistently high evaluations across four universities.</p></article>
+      <article class="card reveal"><span class="card__tag">03 · Build</span><h3>A program from the ground up</h3><p>High-quality collaborative work first, then motivated students on interesting problems. Sustained success on both fronts is what a research program is made of.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ADAM -->
+<section class="section" style="background:var(--paper-2);border-block:1px solid var(--line);">
+  <div class="wrap split">
+    <div class="reveal">
+      <span class="eyebrow">Center affiliation</span>
+      <h2>Applied Data Analysis and Modeling.</h2>
+      <p class="lead">I co-direct ADAM, the CSU Center for Applied Data Analysis and Modeling. Its purpose is to build interdisciplinary teams of researchers and students who solve real problems in physics, biology, and materials science.</p>
+      <div style="margin-top:1.4rem;"><a class="btn btn--accent" href="https://academic.csuohio.edu/adam/" target="_blank" rel="noopener">Visit ADAM <span class="arw">→</span></a></div>
+    </div>
+    <div class="panel reveal">
+      <span class="eyebrow">Recent student outcomes</span>
+      <h3 style="color:#fff;">Where the work goes</h3>
+      <div class="chips">
+        <span class="chip">22 student co-authored papers (19 student-led)</span>
+        <span class="chip">29 on to graduate programs</span>
+        <span class="chip">4 NSF GRFP winners</span>
+        <span class="chip">SIURO publications</span>
+        <span class="chip">Journal of Math Biology</span>
+        <span class="chip">PLoS Comp Biology</span>
+        <span class="chip">Biophysical Reports</span>
+      </div>
+      <p style="color:rgba(255,255,255,.72);margin-top:1.3rem;">Undergraduate and graduate co-authors appear throughout the publication list, from ant-foraging models to poultry food safety to chromosome dynamics.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PEOPLE (current members) -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">People</span>
+      <h2>Current members.</h2>
+      <p class="lead">The group spans applied mathematics, physics, chemical engineering, and biology, from first-year undergraduates to doctoral researchers.</p>
+    </div>
+
+    <div class="people reveal" style="margin-bottom:.5rem;">
+      <div class="person"><div class="ava">SR</div><span class="role">Principal Investigator</span><b>Shawn D. Ryan</b><small>Associate Professor of Mathematics &amp; Statistics</small></div>
+    </div>
+
+    <div class="subhead reveal">Graduate researchers</div>
+    <div class="people reveal">
+      <div class="person"><div class="ava">VC</div><span class="role">Ph.D. · Chemical Eng.</span><b>Vyshnavi Ciluveru</b><small>Experiments for bacterial contamination in poultry processing (co-advised)</small></div>
+    </div>
+
+    <div class="subhead reveal">Undergraduate researchers</div>
+    <div class="people reveal">
+      <div class="person"><div class="ava">KN</div><span class="role">REU · Soft matter</span><b>Kazutada Nakao</b><small>Active-matter modeling (co-advised)</small></div>
+      <div class="person"><div class="ava">ES</div><span class="role">USRA</span><b>Elias Saab</b><small>Bacterial cross-contamination in poultry processing</small></div>
+      <div class="person"><div class="ava">VP</div><span class="role">USRA</span><b>Vincent Palombo</b><small>Bacterial cross-contamination in poultry processing</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- COLLABORATORS -->
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="eyebrow">Collaborators</span><h2>Longtime partners.</h2></div>
+    <div class="cards reveal">
+      <a class="card collab" href="https://scholar.google.com/citations?user=F3KPOnkAAAAJ" target="_blank" rel="noopener"><h3 style="font-size:1.1rem;">D. Munther</h3><span class="collab-aff">Cleveland State University</span><p>Food-safety and poultry contamination modeling (USDA-NIFA, PHAC).</p></a>
+      <a class="card collab" href="https://academic.csuohio.edu/btel/" target="_blank" rel="noopener"><h3 style="font-size:1.1rem;">C. Kothapalli</h3><span class="collab-aff">Chem. &amp; Biomedical Eng., CSU</span><p>Experiments for poultry food-safety modeling.</p></a>
+      <a class="card collab" href="https://sites.google.com/view/mpotomkin" target="_blank" rel="noopener"><h3 style="font-size:1.1rem;">M. Potomkin</h3><span class="collab-aff">UC Riverside</span><p>Active matter, motor-protein transport, active rods in microchannels.</p></a>
+      <a class="card collab" href="https://www.math.fsu.edu/~karamche/" target="_blank" rel="noopener"><h3 style="font-size:1.1rem;">B. Karamched</h3><span class="collab-aff">Florida State University</span><p>Foraging dynamics, symmetry breaking, synthetic consortia.</p></a>
+      <a class="card collab" href="https://avraham-beer.weebly.com/" target="_blank" rel="noopener"><h3 style="font-size:1.1rem;">A. Be'er</h3><span class="collab-aff">Ben-Gurion University</span><p>Swarming-bacteria experiments.</p></a>
+      <a class="card collab" href="https://arielg333.wixsite.com/personal" target="_blank" rel="noopener"><h3 style="font-size:1.1rem;">G. Ariel</h3><span class="collab-aff">Bar-Ilan University</span><p>Models of swarming and collective motion.</p></a>
+      <a class="card collab" href="https://providers.clevelandclinic.org/provider/orkun-baloglu/4270901" target="_blank" rel="noopener"><h3 style="font-size:1.1rem;">O. Baloglu</h3><span class="collab-aff">Cleveland Clinic</span><p>Clinical modeling, pediatric cardiac surgery outcomes.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="cta reveal">
+      <h2>Interested in joining?</h2>
+      <p>If you want to build models that connect to real experiments and data, from foraging to food safety to equation learning, reach out.</p>
+      <div style="margin-top:1.4rem;"><a class="btn btn--accent" href="contact.html">Contact the group <span class="arw">→</span></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- FORMER MEMBERS -->
+<section class="section" style="background:var(--paper-2);border-block:1px solid var(--line);">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Alumni</span>
+      <h2>Former group members.</h2>
+      <p class="lead">Since 2016, 135 students have done research with the group: 107 undergraduate and 28 graduate. A few of where they've landed, from doctoral programs to industry.</p>
+    </div>
+
+    <div class="subhead reveal">Graduate researchers</div>
+    <ul class="former former-cols reveal">
+      <li><b>Ayat Almamy</b> <span class="now">— Ph.D. Mathematical Sciences, Arizona State (2026)</span><span class="proj">M.S. · disease transmission with waning immunity</span></li>
+      <li><b>Sabah Almazariqah</b><span class="proj">M.S. · low-Reynolds-number fluid dynamics</span></li>
+      <li><b>Majidah Alshammari</b><span class="proj">M.S. · numerical analysis of physical waves</span></li>
+      <li><b>Ibtisam Alsharari</b><span class="proj">M.S. · modeling with the Laplace equation</span></li>
+      <li><b>Hamdah Alsharari</b><span class="proj">M.S. · high-Reynolds-number fluid dynamics</span></li>
+      <li><b>Asma Alshehri</b><span class="proj">M.S. · Fourier analysis for diffusion equations</span></li>
+      <li><b>Nick Baumgartner</b> <span class="now">— Assistant Professor, Slippery Rock University</span><span class="proj">M.S. Math (Ph.D., U. Wyoming) · interacting Janus particles</span></li>
+      <li><b>Sean Doherty</b> <span class="now">— Biomedical Data Specialist, CancerLinQ</span><span class="proj">M.S. Mech. Eng. (committee)</span></li>
+      <li><b>Justin Flaherty</b> <span class="now">— Postdoctoral Fellow, Ohio State University</span><span class="proj">Summer research · atmospheric boundary layers</span></li>
+      <li><b>Arpit Gopani</b> <span class="now">— Data Analytics Intern, IPL Global</span><span class="proj">M.S. · machine learning for differential equations</span></li>
+      <li><b>Ben Green</b> <span class="now">— NSF Graduate Research Fellow; Ph.D. candidate, Penn State</span><span class="proj">Ginzburg–Landau superconductivity</span></li>
+      <li><b>Mohammed Kalil</b><span class="proj">M.S. Chem. Eng. · clustering Janus cells</span></li>
+      <li><b>Joe Khoury</b> <span class="now">— Ph.D. candidate, Chemical Eng., Rice University</span><span class="proj">M.S. Chem. Eng. · nanotube fibers</span></li>
+      <li><b>Benjamin Kovacic</b> <span class="now">— Research Data Scientist, Cleveland Clinic</span><span class="proj">M.S. · PDE models for river pollution</span></li>
+      <li><b>Madison Kramig</b> <span class="now">— Adjunct Math Faculty, Lorain Community College</span><span class="proj">M.S. Math</span></li>
+      <li><b>Zach McCarthy</b> <span class="now">— Ph.D., York University · CSU Graduate Student of the Year</span><span class="proj">Microtubule jamming &amp; poultry chilling</span></li>
+      <li><b>Matthew Mizuhara</b> <span class="now">— Associate Professor, The College of New Jersey</span><span class="proj">Ph.D., Penn State · cell motility</span></li>
+      <li><b>Rodney Moore</b> <span class="now">— Bioinformatician, FDA</span><span class="proj">M.S. Math, Georgetown · anthrax inhalation modeling</span></li>
+      <li><b>Rosalia Motta</b> <span class="now">— Pricing Analyst, Progressive Insurance</span><span class="proj">M.S. · herding effects in predator–prey systems</span></li>
+      <li><b>Neda Abdollahi Nohouji</b> <span class="now">— Human Factors Engineer, Apple</span><span class="proj">Ph.D. Mech. Eng. (committee)</span></li>
+      <li><b>Tyler Rhoades</b> <span class="now">— Research Data Scientist, Cleveland Clinic</span><span class="proj">M.S. · medical imaging</span></li>
+      <li><b>Justin Simmerer</b> <span class="now">— Visiting Lecturer, Cleveland State University</span><span class="proj">M.S. · PrEP in HIV prevention</span></li>
+      <li><b>Ryhan Uddin</b> <span class="now">— Ph.D., EECS · 2026 College of Engineering Outstanding TA</span><span class="proj">Committee member (advisor S. Kumar)</span></li>
+      <li><b>Jacob Vitale</b> <span class="now">— Consultant Engineer, FM Global</span><span class="proj">M.S. Chem. Eng. (committee)</span></li>
+      <li><b>Molly Walsh</b> <span class="now">— Mathematics Teacher, Hawken High School</span><span class="proj">M.S. · intestinal bacterial growth</span></li>
+      <li><b>Melanie Wroblewski</b> <span class="now">— Analyst, Sherwin-Williams</span><span class="proj">M.S. · optimal scheduling</span></li>
+      <li><b>Nerion Zekaj</b> <span class="now">— Ph.D. student, Applied Math, UNC-Chapel Hill</span><span class="proj">Kidney-tubule &amp; poultry-contamination modeling</span></li>
+    </ul>
+
+    <div class="subhead reveal">Undergraduate researchers</div>
+    <ul class="former former-cols reveal">
+      <li><b>S. Alfaro</b> <span class="now">— Data Science Researcher, Cleveland Clinic; M.S. Statistics, CSU</span><span class="proj">Carbon sequestration in Ohio trees</span></li>
+      <li><b>Joshua Ashby</b> <span class="now">— A&amp;S Outstanding Scholar 2023</span><span class="proj">Modeling political-party formation</span></li>
+      <li><b>Jeremy Aufderheide</b> <span class="now">— Consulting Developer, Equity Engineering</span><span class="proj">Fracture mechanics of crack propagation</span></li>
+      <li><b>Nick Barron</b> <span class="now">— Ph.D. student, Meteorology, Penn State</span><span class="proj">Fractal cloud structures</span></li>
+      <li><b>Alexis Bloor</b> <span class="now">— Associate Financial Analyst, Northwestern Mutual</span><span class="proj">Spread of disease between species</span></li>
+      <li><b>Vanessa Boyce</b> <span class="now">— CSU Arts &amp; Sciences Valedictorian nominee</span><span class="proj">Predictive modeling of antibiotic resistance</span></li>
+      <li><b>Alexis Brown</b> <span class="now">— Research Intern, Holden Arboretum</span><span class="proj">Algae-bloom formation</span></li>
+      <li><b>William Calabrase</b> <span class="now">— Metrology Engineer, CEIA; Ph.D., CWRU Physics</span><span class="proj">What determines the shape of a cloud</span></li>
+      <li><b>Ariana Chriss</b> <span class="now">— Ph.D., Computational Biology, Mount Sinai</span><span class="proj">Chromosome dynamics</span></li>
+      <li><b>Jacob Clark</b> <span class="now">— Data Analyst, AML RightSource</span><span class="proj">Fourier analysis in biology</span></li>
+      <li><b>Paul DiVenti</b> <span class="now">— High-school Math Teacher; M.S. Math Ed., Towson</span><span class="proj">Optimizing fencing matches</span></li>
+      <li><b>Q. Donahue</b> <span class="now">— Ph.D., Mathematics, University of Pittsburgh</span><span class="proj">Homogenization</span></li>
+      <li><b>Kayla Drager</b> <span class="now">— A&amp;S Outstanding Scholar</span><span class="proj">Modeling genetically modified crops</span></li>
+      <li><b>Caitlin Gibson</b> <span class="now">— Quantitative Analyst, KeyBank</span><span class="proj">Sound patterns in frog movement</span></li>
+      <li><b>Ryan Godin</b> <span class="now">— NSF GRF; Ph.D., Chemical Eng., Iowa State</span><span class="proj">Modeling synthetic cell consortia</span></li>
+      <li><b>Marola Issa</b> <span class="now">— Ph.D., Chemical Eng., CWRU; now at Dow Chemical</span><span class="proj">Active-particle dynamics (co-advised)</span></li>
+      <li><b>Wei Jia</b> <span class="now">— Ph.D., Data Science, University of Cincinnati</span><span class="proj">Boundary-layer effects in clouds</span></li>
+      <li><b>Benjamin Kovacic</b> <span class="now">— Research Data Scientist, Cleveland Clinic</span><span class="proj">Pollution spread in aquatic ecosystems</span></li>
+      <li><b>Kevin Lannoch</b> <span class="now">— Technical Sales Rep, Lincoln Electric</span><span class="proj">Economic modeling</span></li>
+      <li><b>Nghi Le</b> <span class="now">— A&amp;S Valedictorian nominee 2026</span><span class="proj">Modeling parent help on student performance</span></li>
+      <li><b>Theresa Lincheck</b> <span class="now">— Ph.D., Meteorology, U. Oklahoma; 2021 Valedictorian</span><span class="proj">Cloud dynamics</span></li>
+      <li><b>Michael Long</b> <span class="now">— M.S., Computational Finance, Carnegie Mellon</span><span class="proj">Modeling stock prices</span></li>
+      <li><b>LaiAnna Loucks</b> <span class="now">— Underwriting Assistant, McGowan Companies</span><span class="proj">Regression models for music popularity</span></li>
+      <li><b>Christina Mark</b> <span class="now">— Ph.D. student, UNC-Chapel Hill (2026)</span><span class="proj">Metastability of ant trails</span></li>
+      <li><b>Grace Miller</b> <span class="now">— Ph.D., Particle Physics, CWRU</span><span class="proj">Atomic deposition on surfaces</span></li>
+      <li><b>Michael Miller</b> <span class="now">— Quantitative Analyst, PNC</span><span class="proj">Modeling the spread of COVID-19</span></li>
+      <li><b>Mahamoud Musleh</b> <span class="now">— Ph.D., Mathematics, Florida State</span><span class="proj">Stochastic differential equations in finance</span></li>
+      <li><b>Niksa Praljak</b> <span class="now">— NSF GRF; Ph.D. student, U. Chicago; 2020 Valedictorian</span><span class="proj">Pulsatile kidney tubules</span></li>
+      <li><b>Simon Richard</b> <span class="now">— Ph.D., Computer Science, Purdue</span><span class="proj">Learning in large language models</span></li>
+      <li><b>Jalisa Richardson</b> <span class="now">— Senior Process Manufacturing Engineer; M.S., UW-Madison</span><span class="proj">Algae growth in biodiesel production</span></li>
+      <li><b>Logan Roberts</b> <span class="now">— Outstanding Student Teacher, CSU Teach</span><span class="proj">Student preparation &amp; future performance</span></li>
+      <li><b>Anthony Sulak</b> <span class="now">— Ph.D., Applied Math, Michigan State; Risk Analytics, Nationwide</span><span class="proj">Optimal shape of water towers (SIURO)</span></li>
+      <li><b>Vladimir Sworski</b> <span class="now">— Ph.D., Mathematics, Colorado State; CoSHP Valedictorian</span><span class="proj">Atmospheric modeling</span></li>
+      <li><b>Chanboramey (Mei) Vann</b> <span class="now">— Financial Analyst, Sherwin-Williams</span><span class="proj">Real-time traffic in PDE congestion models</span></li>
+      <li><b>Abbigail Walls</b> <span class="now">— M.S., Clinical Mental Health Counseling</span><span class="proj">Modeling coral-reef depletion</span></li>
+    </ul>
+    <p class="muted reveal" style="font-size:.9rem;margin-top:1.6rem;">A selection focused on recorded destinations. The full roster of 130+ advisees appears in the <a href="assets/SRyan_CV.pdf" target="_blank" rel="noopener">CV</a>.</p>
+  </div>
+</section>
+
+<footer class="foot"><img class="foot-emblem" src="brand/logo-mark-arrow-organized.svg" alt="" aria-hidden="true" />
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <a class="brand" href="index.html"><img class="brand-mark" src="brand/logo-mark-arrow.svg" alt="" width="36" height="36" /><span>Ryan Research Group<small>Cleveland State University</small></span></a>
+        <p class="muted" style="margin-top:1rem;max-width:34ch;font-size:.92rem;">Applied and computational mathematics for living and physical systems. Cleveland, Ohio.</p>
+      </div>
+      <div><h4>Explore</h4><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="group.html">Group</a><a href="teaching.html">Teaching</a></div>
+      <div><h4>Elsewhere</h4><a href="https://academic.csuohio.edu/adam/" target="_blank" rel="noopener">ADAM Center</a><a href="https://scholar.google.com/citations?user=qBnlp3wAAAAJ" target="_blank" rel="noopener">Google Scholar</a><a href="https://github.com/sdryan/" target="_blank" rel="noopener">GitHub</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="foot__bottom"><span>© 2026 Shawn D. Ryan · Ryan Research Group</span><span class="mono">Built independent of the university CMS</span></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
