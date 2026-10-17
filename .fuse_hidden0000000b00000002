@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Page not found — Ryan Research Group</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/svg+xml" href="brand/favicon-arrow.svg" />
+<link rel="apple-touch-icon" href="brand/png/favicon-180.png" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<section class="section" style="min-height:80vh;display:grid;place-items:center;text-align:center;">
+  <div class="wrap">
+    <span class="eyebrow" style="justify-content:center;">Error 404</span>
+    <h1 style="font-size:clamp(3rem,10vw,6rem);">Off the grid.</h1>
+    <p class="lead" style="margin-inline:auto;">That page doesn't exist. Let's get you back to the models.</p>
+    <div style="margin-top:1.6rem;"><a class="btn btn--accent" href="/">Return home <span class="arw">→</span></a></div>
+  </div>
+</section>
+<script src="js/main.js"></script>
+</body>
+</html>
